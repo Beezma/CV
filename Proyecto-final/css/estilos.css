@@ -1,0 +1,75 @@
+body {
+  background-image: url("pattern.png");
+  background-repeat: repeat;
+  background-position: 0 0;
+  background-size: 8%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+main {
+  width: 1000px;
+  height: 1200px;
+  border: 30px solid #ffffff;
+  margin: 30px auto;
+  box-shadow: 0 0 20px #0004;
+}
+.left {
+  background-color: #d6680b;
+  position: relative;
+  width: 300px;
+  height: 1201px;
+  left: 0px;
+  top: -22px;
+  padding: 0px;
+  border: 0px;
+  box-shadow: 0 0 20px #0004;
+}
+.right {
+  background-color: #424242;
+  position: relative;
+  top: -1244.4px;
+  width: 700px;
+  height: 1201px;
+  padding: 0px;
+  left: 300px;
+  border: 0px;
+  box-shadow: 0 0 20px #0004;
+}
+img {
+  position: relative;
+  width: 270px;
+  padding: 15px 15px 5px 15px;
+}
+.name {
+  text-align: center;
+  margin: auto;
+  padding: auto;
+}
+.left-text {
+  position: relative;
+  left: 35px;
+  width: 240px;
+}
+.line-text {
+  position: relative;
+  width: 250px;
+  left: -10px;
+  border: 2px;
+  border-style: solid none solid;
+  border-color:#424242
+}
+.right-text {
+  position: relative;
+  left: 30px;
+  top: 20px;
+  width: 640px;
+}
+.right-text h1{
+  color: #bf5700;
+}
+.rt2 {
+  position: relative;
+  left: 200px;
+  width: 440px;
+
+}
